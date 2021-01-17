@@ -1,0 +1,16 @@
+{
+  "name": "purescript-starter",
+  "version": "1.0.0",
+  "description": "A simple template for creating frontend Purescript apps.",
+  "main": "index.js",
+  "repository": "https://github.com/anthonypenna/purescript-starter.git",
+  "author": "anthonypenna",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html --port 3000"
+  }
+}
