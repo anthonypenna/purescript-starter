@@ -12,6 +12,6 @@
   },
   "scripts": {
     "cleanup": "rm -rf .cache .spago dist output && spago build",
-    "start": "yarn cleanup && parcel index.html --port 8000"
+    "start": "parcel index.html --port 8000"
   }
 }
