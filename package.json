@@ -11,6 +11,7 @@
     "parcel": "^1.12.4"
   },
   "scripts": {
-    "start": "parcel index.html --port 3000"
+    "cleanup": "rm -rf .cache .spago dist output && spago build",
+    "start": "yarn cleanup && parcel index.html --port 3000"
   }
 }
